@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "login_tools",
+  "version": "1.0.0",
+  "name": "Login Tools",
+  "description": "Manages to protect your passwords.",
+  "authors": [
+    "nekt4r_ink"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ink.nektar.logintools.LoginToolsClient"
+    ],
+    "modmenu": [
+      "ink.nektar.logintools.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "login_tools.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "recommends": {
+    "modmenu": ">=11.0.0"
+  }
+}

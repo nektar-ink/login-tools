@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "ink/nektar/logintools/mixin/ChatScreenMixin": {
+      "render": "Lnet/minecraft/class_408;method_25394(Lnet/minecraft/class_332;IIF)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "ink/nektar/logintools/mixin/ChatScreenMixin": {
+        "render": "Lnet/minecraft/class_408;method_25394(Lnet/minecraft/class_332;IIF)V"
+      }
+    }
+  }
+}
